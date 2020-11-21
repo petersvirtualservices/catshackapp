@@ -1,0 +1,122 @@
+* {
+  color: #333;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  cursor: pointer;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+button#loginBtn {
+  margin: 0 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+  padding: 30px;
+  text-align:center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#welcome {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+input#name {
+  margin: 0 10px;
+  border: none;
+  background: #efefef;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#startQuiz{
+  background: blue;
+  border: 0;
+  border-radius: 3;
+  color: white;
+  height: 43;
+  padding: 20px;
+}
+
+#question-container {
+  max-width: 800px;
+  text-align: left;
+  margin: 0 auto;
+  font-weight: 800;
+}
+
+#question {
+  margin-bottom: 10px;
+}
+
+.answer {
+  padding: 10px 0;
+  font-weight: 800;
+  color: #777;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.space {
+  margin: 70px 0;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.form * {
+  display: block;
+  margin: 10px auto;
+}
+
+.warning {
+  width: 300px;
+  background: firebrick;
+  padding: 5px;
+  color: #fff;
+}
